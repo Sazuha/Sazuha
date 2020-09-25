@@ -65,7 +65,7 @@ if a == '2':
             else:
                 after = word
             print(after, end='')
-
+input()
 
 
 

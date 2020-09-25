@@ -13,7 +13,7 @@ pic = requests.get(url=bing).content
 name= "D:\\" + str(year) + "-" + str(month) + "-" + str(day) + ".jpg"
 with open(file=name, mode = "wb") as f:
     f.write(pic)
-
+input("已完成")
 
 
 
